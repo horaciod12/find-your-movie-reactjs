@@ -1,0 +1,107 @@
+body { 
+	padding-bottom: 70px; 
+}
+
+.selected {
+	color: #555 !important;
+	background-color: #e7e7e7 !important;
+}
+
+.form {
+	margin: 30px 0 30px 0;
+	text-align: center;
+}
+
+.search-button {
+	margin-left: 8px;
+	color: #fff !important;
+}
+
+.img-movie {
+	width: 250px;
+	height: 300px;
+}
+
+.media-body {
+	padding-left: 10px;
+}
+
+.footer {
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+.ion-android-star {
+    color: #e4bb24;
+    font-size: 25px;
+}
+
+.cont-icon {
+	font-size: 18px;
+}
+
+.ion-thumbsup {
+    font-size: 30px;
+    color: #337ab7;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.f-paragraph {
+    font-size: 16px;
+    color: #333;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.h-padding {
+	padding-bottom: 15px;
+}
+
+.btn-dark{color:#fff;background-color:#343a40;border-color:#343a40}
+.btn-dark:hover{color:#fff;background-color:#23272b;border-color:#1d2124}
+.btn-dark.focus,.btn-dark:focus{box-shadow:0 0 0 3px rgba(52,58,64,.5)}
+.btn-dark.disabled,.btn-dark:disabled{background-color:#343a40;border-color:#343a40}
+.btn-dark.active,.btn-dark:active,.show>.btn-dark.dropdown-toggle
+{background-color:#23272b;background-image:none;border-color:#1d2124}
+
+/* RESPONSIVE STYLES */
+
+@media screen and (max-width: 769px) {
+    .menu {
+    	display: flex;
+    	margin-left: 10px;
+    }
+
+    nav div.container-fluid {
+    	display: flex;
+    }
+
+    .navbar-header {
+    	margin-top: 2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+	.img-movie {
+		width: 288px;
+		height: 300px;
+	}
+
+	.media-body {
+		width: 291px;
+		padding-left: 0;
+	}
+
+	.media {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 70px;
+	}
+
+	.media-left {
+		padding-right: 0;
+	}
+}
